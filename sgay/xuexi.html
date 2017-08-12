@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title></title>
+<link href="lib/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+<style>
+html,body{
+	margin:0px;
+	padding:0px;
+}
+#toubu .top{
+	border-bottom:1px solid skyblue;
+}
+
+#toubu .row div+div{
+	border-left:1px solid skyblue;
+}
+
+
+
+	
+.navbar-zidingyi {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-zidingyi .navbar-brand {
+  color: #777;
+}
+.navbar-zidingyi .navbar-brand:hover,
+.navbar-zidingyi .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-zidingyi .navbar-text {
+  color: #777;
+}
+.navbar-zidingyi .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-zidingyi .navbar-nav > li > a:hover,
+.navbar-zidingyi .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+  border-bottom: 1px solid tomato;
+}
+.navbar-zidingyi .navbar-nav > .active > a,
+.navbar-zidingyi .navbar-nav > .active > a:hover,
+.navbar-zidingyi .navbar-nav > .active > a:focus {
+  color: #555;
+  border-bottom: 1px solid tomato;
+}
+.navbar-zidingyi .navbar-nav > .disabled > a,
+.navbar-zidingyi .navbar-nav > .disabled > a:hover,
+.navbar-zidingyi .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-zidingyi .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-zidingyi .navbar-toggle:hover,
+.navbar-zidingyi .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-zidingyi .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-zidingyi .navbar-collapse,
+.navbar-zidingyi .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-zidingyi .navbar-nav > .open > a,
+.navbar-zidingyi .navbar-nav > .open > a:hover,
+.navbar-zidingyi .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-zidingyi .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-zidingyi .navbar-link {
+  color: #777;
+}
+.navbar-zidingyi .navbar-link:hover {
+  color: #333;
+}
+.navbar-zidingyi .btn-link {
+  color: #777;
+}
+.navbar-zidingyi .btn-link:hover,
+.navbar-zidingyi .btn-link:focus {
+  color: #333;
+}
+.navbar-zidingyi .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-zidingyi .btn-link:hover,
+.navbar-zidingyi .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-zidingyi .btn-link:focus {
+  color: #ccc;
+}
+
+
+img{
+
+}
+
+#dadada>.container>.carousel{
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+}
+
+#bababa a{
+  text-decoration: none;
+}
+
+#hahaha{
+  background-color: grey;
+}
+
+
+#hahaha>.container>.nav-tabs{}
+
+#hahaha>.container>.nav-tabs>li{
+
+}
+
+#hahaha>.container>.nav-tabs>li.active>a{
+   background-color: transparent;
+   border: 0;
+   color: black;
+}
+
+
+#hahaha>.container>.nav-tabs>li>a{
+  color: white;
+}
+
+#hahaha>.container>.nav-tabs>li>a:hover{
+  background-color: transparent;
+  border: 0;
+  color: black;
+}
+
+#mianban{}
+
+#mianban .panel{
+  width: 300px;
+
+  
+}
+
+#mianban .panel .panel-heading{
+  float: left;
+  background-color: skyblue;
+  padding: 0px;
+  height: 100px;
+  width: 200px;
+  
+}
+
+#mianban .panel .panel-body{
+  background-color: tomato;
+  padding: 0px;
+  width: 80px;
+  margin-left: 220px;
+
+
+}
+
+#xinwen>.container>.row div{
+  border: 1px solid skyblue;
+}
+
+#xinwen .nav-stacked>li{
+  float: left;
+}
+
+body{
+  height: 3000px;
+}
+
+#leilei .affix{
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+/*#xuexue img{
+  width: 50%;
+}*/
+
+#xuexue h3{
+  font-size: 18px;
+}
+
+#xuexue .thumbnail .caption{
+  padding: 0px;
+}
+
+</style>
+</head>
+<body>
+
+<header id="toubu">
+    <div class="top">
+         <div class="container">
+             <div class="row">
+               <div class="col-md-4">这是一部分</div>
+               <div class="col-md-4">这是一部分</div>
+               <div class="col-md-4">这是一部分</div>
+             </div>
+         </div>
+    </div>
+</header>
+
+
+<section class="" id="leilei">
+  <nav class="navbar navbar-zidingyi navbar-static-top" data-spy="affix" data-offset-top="300">
+  <div class="container">
+      <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a href="#" class="navbar-brand">图标</a>
+      </div>
+      
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="#">默认</a></li>
+          <li><a href="#">默认</a></li>
+          <li><a href="#">默认</a></li>
+          <li><a href="#">默认</a></li>
+          <li><a href="#">默认</a></li>
+          <li><a href="#">默认</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">右边</a></li>
+      </ul>
+      </div>
+  </div>
+  </nav>
+
+</section>
+
+
+
+<section id="dadada">
+
+  <div class="container">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/01.png" alt="...">
+    </div>
+    <div class="item">
+      <img src="img/01.png" alt="...">
+    </div>
+    <div class="item">
+      <img src="img/01.png" alt="...">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</section>
+
+
+<section id="bababa">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-4">
+      <a href="#">
+        <div class="media">
+          <div class="media-left">
+            <div>span元素</div>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Media heading</h4>
+            说明文字
+          </div>
+        </div>
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-sm-6 col-md-4"><div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div></div>
+      <div class="col-xs-6 col-sm-6 col-md-4"><div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div></div>
+      <div class="col-xs-6 col-sm-6 col-md-4"><div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div></div>
+      <div class="col-xs-6 col-sm-6 col-md-4"><div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div></div>
+  <div class="col-xs-6 col-sm-6 col-md-4">
+    <div class="media">
+      <div class="media-left">
+        <a href="#">
+          <img class="media-object" src="..." alt="...">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Media heading</h4>
+        ...
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="hahaha">
+<div class="container hidden-xs">
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#tab_1" aria-controls="tab_1" role="tab" data-toggle="tab">Home</a>
+    </li>
+    <li role="presentation">
+      <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a>
+    </li>
+    <li role="presentation">
+      <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a>
+    </li>
+    <li role="presentation">
+      <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a>
+    </li>
+    <li class="pull-right"><a href="#">更多</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="tab_1">1</div>
+    <div role="tabpanel" class="tab-pane fade" id="profile">2</div>
+    <div role="tabpanel" class="tab-pane fade" id="messages">3</div>
+    <div role="tabpanel" class="tab-pane fade" id="settings">4</div>
+  </div>
+  </div>
+</section>
+
+
+<section id="mianban">
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">Panel heading without title</div>
+      <div class="panel-body">
+        Panel content
+      </div>
+  </div>
+</div>
+</section>
+
+
+<section>
+  <div class="tooltip top" role="tooltip">
+    <div class="tooltip-arrow">dsdsds</div>
+    <div class="tooltip-inner">
+    Some tooltip text!
+    </div>
+  </div>
+</section>
+
+
+<section id="xinwen">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-md-offset-1" id="xinwenshow">新闻</div>
+    <div class="col-md-3">
+      
+      
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active"><a href="#01" data-toggle="tab" data-tit="H">Home</a></li>
+        <li role="presentation" class=""><a href="#02" data-toggle="tab" data-tit="P">Profile</a></li>
+        <li role="presentation" class=""><a href="#03" data-toggle="tab" data-tit="M">Messages</a></li>
+        <li role="presentation" class=""><a href="#04" data-toggle="tab" data-tit="S">Messages</a></li>
+      </ul>
+    
+      
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active fade" id="01">第一个</div>
+        <div role="tabpanel" class="tab-pane fade" id="02">第二个</div>
+        <div role="tabpanel" class="tab-pane fade" id="03">第三个</div>
+        <div role="tabpanel" class="tab-pane fade" id="04">第四个</div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="xuexue">
+  <div class="row">
+  <div class="col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="img/01.png" alt="...">
+      <div class="caption">
+        <h3>【特番】「No game No life」NG杯☆最强游戏玩家决定战 第1话</h3>
+      </div>
+    </a>
+  </div>
+</div>
+</section>
+
+<script src="lib/bower_components/jquery/dist/jquery.js"></script>
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script>
+  $(function(){
+
+      $("#xinwen .nav-stacked a").on("click",function(){
+
+        //console.log($(this).data("tit"));
+        $("#xinwenshow").text($(this).data("tit"));
+      })
+
+  });
+</script>
+</body>
+</html>
