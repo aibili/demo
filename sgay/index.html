@@ -39,13 +39,31 @@ html,body{
 #rongqi{
   padding-top: 50px;
   margin-right: 0px;
+  background-image: url(img/bg.jpg);
+  background-repeat: repeat;
+  /*background-color: grey;*/
 }
 
 #rongqi .tab-content{
   padding-top: 5px;
   padding-left: 10px;
-  border: 1px solid skyblue;
+  border: 3px solid skyblue;
+  position: relative;
 }
+
+#rongqi .tab-content::after{
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent;
+  border-right-color: skyblue;
+  position: absolute;
+  top: 10px;
+  left: -40px;
+}
+
 
 #rongqi .tab-content .caption{
   padding: 0px;
@@ -74,22 +92,22 @@ html,body{
         <span class="badge">6</span>
       </a>
       <a href="#02" class="list-group-item" data-toggle="tab" data-num="2">
-        <h4 class="list-group-item-heading">生放1</h4>
+        <h4 class="list-group-item-heading">niconico生放1</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">1</span>
       </a>
       <a href="#03" class="list-group-item" data-toggle="tab" data-num="3">
-        <h4 class="list-group-item-heading">广播1-4</h4>
+        <h4 class="list-group-item-heading">NRNL广播1-4</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">4</span>
       </a>
       <a href="#04" class="list-group-item" data-toggle="tab" data-num="4">
-        <h4 class="list-group-item-heading">生放2</h4>
+        <h4 class="list-group-item-heading">niconico生放2</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">1</span>
       </a>
       <a href="#05" class="list-group-item" data-toggle="tab" data-num="5">
-        <h4 class="list-group-item-heading">广播5-7</h4>
+        <h4 class="list-group-item-heading">NRNL广播5-7</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">3</span>
       </a>
@@ -99,27 +117,27 @@ html,body{
         <span class="badge">1</span>
       </a>
       <a href="#07" class="list-group-item" data-toggle="tab" data-num="7">
-        <h4 class="list-group-item-heading">广播8</h4>
+        <h4 class="list-group-item-heading">NRNL广播8</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">1</span>
       </a>
       <a href="#08" class="list-group-item" data-toggle="tab" data-num="8">
-        <h4 class="list-group-item-heading">生放3</h4>
+        <h4 class="list-group-item-heading">niconico生放3</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">1</span>
       </a>
       <a href="#09" class="list-group-item" data-toggle="tab" data-num="9">
-        <h4 class="list-group-item-heading">广播9-12</h4>
+        <h4 class="list-group-item-heading">NRNL广播9-12</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">4</span>
       </a>
       <a href="#10" class="list-group-item" data-toggle="tab" data-num="10">
-        <h4 class="list-group-item-heading">生放4</h4>
+        <h4 class="list-group-item-heading">niconico生放4</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">1</span>
       </a>
       <a href="#11" class="list-group-item" data-toggle="tab" data-num="11">
-        <h4 class="list-group-item-heading">广播13-14</h4>
+        <h4 class="list-group-item-heading">NRNL广播13-14</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">2</span>
       </a>
@@ -129,7 +147,7 @@ html,body{
         <span class="badge">1</span>
       </a>
       <a href="#13" class="list-group-item" data-toggle="tab" data-num="13">
-        <h4 class="list-group-item-heading">广播15-22</h4>
+        <h4 class="list-group-item-heading">NRNL广播15-22</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">8</span>
       </a>
@@ -139,22 +157,22 @@ html,body{
         <span class="badge">2</span>
       </a>
       <a href="#15" class="list-group-item" data-toggle="tab" data-num="15">
-        <h4 class="list-group-item-heading">广播23-26</h4>
+        <h4 class="list-group-item-heading">NRNL广播23-26</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">4</span>
       </a>
       <a href="#16" class="list-group-item" data-toggle="tab" data-num="16">
-        <h4 class="list-group-item-heading">三重公录</h4>
+        <h4 class="list-group-item-heading">传说的三重公录</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">2</span>
       </a>
       <a href="#17" class="list-group-item" data-toggle="tab" data-num="17">
-        <h4 class="list-group-item-heading">特别复活回</h4>
+        <h4 class="list-group-item-heading">NRNL特别复活回</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">1</span>
       </a>
       <a href="#18" class="list-group-item" data-toggle="tab" data-num="18">
-        <h4 class="list-group-item-heading">公布剧场版</h4>
+        <h4 class="list-group-item-heading">剧场版公布</h4>
         <p class="list-group-item-text">玩游戏的那个部分</p>
         <span class="badge">1</span>
       </a>
@@ -632,18 +650,24 @@ html,body{
 <script src="lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script>
   $(function(argument) {
-    $("#selsel .list-group-item").on("click",function(index,value){
+    $("#selsel .list-group-item").on("click",function(){
       $("#selsel .list-group-item").removeClass("active");
       $(this).addClass("active");
 
-    
+
+     var win=$(window).width();
      var mt=$(this).data("num");
-     $("#video-show").css({
+    console.log(win);
+     if(win<768){
+        mt=1;
+     }
+
+      $("#video-show").css({
       "margin-top":(mt-1)*63+"px"
      });
-
-
+     
     });
+
   })
 </script>
 </body>
