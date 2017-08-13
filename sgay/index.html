@@ -37,7 +37,7 @@ html,body{
 }
 
 #rongqi{
-  padding-top: 50px;
+  padding-top: 80px;
   margin-right: 0px;
   background-image: url(img/bg-03.png);
   background-repeat: repeat;
@@ -73,8 +73,22 @@ html,body{
  font-size: 18px;
 }
 
-#video-show{
+#video-show{}
 
+#head-show{
+  position: absolute;
+  background-color: skyblue;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%,0);
+  color: white;
+  z-index: 1001;
+  border-radius: 30px;
+}
+
+#head-show span{
+  font-size: 20px;
+  color: tomato;
 }
 
 
@@ -92,99 +106,101 @@ var _hmt = _hmt || [];
 
 </head>
 <body>
-
+<div class="container text-center" id="head-show">
+  <p>左侧栏的观看顺序是我参考了视频中松冈和爱衣两人谈及的内容而进行排列的，可供新人入教食用，但不能保证完全正确（︶︿︶）。另外，这不是最终版，更多最新的内容请各位新人观看视频的时候一定要关注右上角的UP主，尤其是<span>亚丝</span>开头，<span>A</span>开头和<span>拉面</span>开头的那几位。( ＞ω＜)</p>
+</div>
 <div class="row" id="rongqi">
 <div class="col-md-3">
   <div class="sel" id="selsel">
     <div class="list-group">
       <a href="#01" class="list-group-item active" data-toggle="tab" data-num="1">
         <h4 class="list-group-item-heading">NG杯</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">各种游戏，以及UC颜艺</p>
         <span class="badge">6</span>
       </a>
       <a href="#02" class="list-group-item" data-toggle="tab" data-num="2">
         <h4 class="list-group-item-heading">niconico生放1</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">唯一神的事故专场</p>
         <span class="badge">1</span>
       </a>
       <a href="#03" class="list-group-item" data-toggle="tab" data-num="3">
         <h4 class="list-group-item-heading">NRNL广播1-4</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">爱衣最初的2.5</p>
         <span class="badge">4</span>
       </a>
       <a href="#04" class="list-group-item" data-toggle="tab" data-num="4">
         <h4 class="list-group-item-heading">niconico生放2</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">唯一神的事故专场</p>
         <span class="badge">1</span>
       </a>
       <a href="#05" class="list-group-item" data-toggle="tab" data-num="5">
         <h4 class="list-group-item-heading">NRNL广播5-7</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">2.5→3.5！</p>
         <span class="badge">3</span>
       </a>
       <a href="#06" class="list-group-item" data-toggle="tab" data-num="6">
         <h4 class="list-group-item-heading">公开录音vol1</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">开始暧昧的小剧场！</p>
         <span class="badge">1</span>
       </a>
       <a href="#07" class="list-group-item" data-toggle="tab" data-num="7">
         <h4 class="list-group-item-heading">NRNL广播8</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">第七条盟约</p>
         <span class="badge">1</span>
       </a>
       <a href="#08" class="list-group-item" data-toggle="tab" data-num="8">
         <h4 class="list-group-item-heading">niconico生放3</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">唯一神的事故专场</p>
         <span class="badge">1</span>
       </a>
       <a href="#09" class="list-group-item" data-toggle="tab" data-num="9">
         <h4 class="list-group-item-heading">NRNL广播9-12</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">爱衣人妻max，秒破唯一神谎言</p>
         <span class="badge">4</span>
       </a>
       <a href="#10" class="list-group-item" data-toggle="tab" data-num="10">
         <h4 class="list-group-item-heading">niconico生放4</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">唯一神的事故专场</p>
         <span class="badge">1</span>
       </a>
       <a href="#11" class="list-group-item" data-toggle="tab" data-num="11">
         <h4 class="list-group-item-heading">NRNL广播13-14</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">夫妻同步环节首次全灭！</p>
         <span class="badge">2</span>
       </a>
       <a href="#12" class="list-group-item" data-toggle="tab" data-num="12">
         <h4 class="list-group-item-heading">公开录音vol2</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">我从未见过如此知性的美人</p>
         <span class="badge">1</span>
       </a>
       <a href="#13" class="list-group-item" data-toggle="tab" data-num="13">
         <h4 class="list-group-item-heading">NRNL广播15-22</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">18回狠胃疼，22回超高能！</p>
         <span class="badge">8</span>
       </a>
       <a href="#14" class="list-group-item" data-toggle="tab" data-num="14">
         <h4 class="list-group-item-heading">公开录音vol3</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">公费约会，服不服！</p>
         <span class="badge">2</span>
       </a>
       <a href="#15" class="list-group-item" data-toggle="tab" data-num="15">
         <h4 class="list-group-item-heading">NRNL广播23-26</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">最后两回一定要备好墨镜！</p>
         <span class="badge">4</span>
       </a>
       <a href="#16" class="list-group-item" data-toggle="tab" data-num="16">
         <h4 class="list-group-item-heading">传说的三重公录</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">秀恩爱以及唯一神的神鸡</p>
         <span class="badge">2</span>
       </a>
       <a href="#17" class="list-group-item" data-toggle="tab" data-num="17">
         <h4 class="list-group-item-heading">NRNL特别复活回</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">日常复活</p>
         <span class="badge">1</span>
       </a>
       <a href="#18" class="list-group-item" data-toggle="tab" data-num="18">
         <h4 class="list-group-item-heading">剧场版公布</h4>
-        <p class="list-group-item-text">玩游戏的那个部分</p>
+        <p class="list-group-item-text">游戏人生Zero！</p>
         <span class="badge">1</span>
       </a>
     </div>
